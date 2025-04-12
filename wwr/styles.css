@@ -1,0 +1,72 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 800px;
+}
+.contact-info {
+    flex: 1;
+    padding: 20px;
+}
+.contact-info h2 {
+    color: #6A0DAD;
+    font-weight: 600;
+}
+.contact-info p {
+    color: black;
+}
+.contact-info .info {
+    display: flex;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.contact-info .info img {
+    width: 20px;
+    margin-right: 10px;
+}
+.contact-info .social-icons {
+    display: flex;
+    gap: 10px;
+}
+.contact-info .social-icons img {
+    width: 30px;
+    cursor: pointer;
+}
+.contact-form {
+    flex: 1;
+    padding: 20px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form textarea {
+    height: 80px;
+}
+.contact-form .btn {
+    background: #6A0DAD;
+    color: gray;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}

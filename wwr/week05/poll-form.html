@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130| HTML Form - user poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>WDD 130| HTML Form - user poll</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                    <label for="Fullname">Full Name:</label>
+                    <input type="text" id="Fullname" name="fullname">
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail">
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+                
+                <div>
+                  <label for="browser">What is your favorite browser?</label>
+                  <select name="browser" id="browser">
+                    <option value="chrome">Google Chrome</option>
+                    <option value="firefox">Mozilla Firefox</option>
+                    <option value="safari">Apple Safari</option>
+                    <option value="edge">Microsoft Edge</option>
+                    <option value="opera">Opera</option>
+                  </select>
+                </div>
+                
+                <div>
+                  <label for="pet">Do you have a household pet?</label>
+                  <input type="checkbox" name="pet" id="pet">
+                </div>
+                
+                <div>
+                  <label for="feedback">List the places you have lived.</label>
+                  <textarea name="feedback" id="feedback" rows="4" placeholder="Enter the cities and states/countries you've lived in..."></textarea>
+                </div>
+                <button type="submit">Submit Poll</button>
+                
+              </fieldset>
+        </form>
+    </main>
+    <footer>
+        &copy;2025 | Form - user poll Activity | James Kabba Conteh
+    </footer>
+</body>
+</html>
